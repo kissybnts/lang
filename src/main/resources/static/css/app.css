@@ -1,0 +1,55 @@
+* {
+	font-family: Lato;
+}
+
+.serif {
+	font-family: serif;
+	font-size: smaller;
+	font-weight: lighter;
+}
+.bolder {
+	font-weight:bolder;
+}
+.larger {
+	font-size: larger;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+input[type=text].thin-margin-bottom {
+	margin-bottom: 2px;
+}
+
+textarea.lato-input, input.lato-input {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+textarea.serif, input.serif {
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+dl {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+dt,dd {
+	margin-top: 0;
+}
+.margin-top0 {
+	margin-top: 0;
+}
+.input-field-custom {
+	margin-top: 0px;
+}
+h5 {
+	margin-bottom: 0;
+	padding-left: 10px;
+}
+
+.w98 {
+	width: 98%;
+}

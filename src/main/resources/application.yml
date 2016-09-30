@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    #url: jdbc:mysql://127.0.0.1:32780/docker-mysql?useSSL=false
+    url: jdbc:mysql://localhost/stueng
+    username: user
+    password: user
+    driver-class-name: com.mysql.jdbc.Driver
+    sql-script-encoding: UTF-8
+  jpa:
+    show-sql: true
